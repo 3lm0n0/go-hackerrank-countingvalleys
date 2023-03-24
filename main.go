@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println(countingValleys(int32(6), string("UDDDUDUU")))
+	fmt.Println(countingValleys(int32(8), string("UDDDUDUU")))
 }
 
 func countingValleys(steps int32, path string) int32 {
